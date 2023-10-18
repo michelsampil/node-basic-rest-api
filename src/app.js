@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 const port = 3000;
 
-import requestLogger from "./middlewares/request-logger.mjs";
+import { requestLogger } from "./middlewares/request-logger.mjs";
 import errorHandler from "./middlewares/error-handler.mjs";
 
 app.use(express.json());
