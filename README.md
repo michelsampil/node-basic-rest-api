@@ -6,7 +6,7 @@
 - cd [app-name]
 - npm init -y
 - npm install express
-- create an index.js file
+- (create an index.js or app.js file)
 
 In an Express.js application, a common middleware stack typically consists of multiple middleware functions that process incoming HTTP requests and outgoing responses. Here's an example of a 5-layer middleware stack in an Express.js application:
 
